@@ -17,6 +17,7 @@
 		E31BFF1E297AEC0100F213D2 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BFF1D297AEC0100F213D2 /* AnswerRow.swift */; };
 		E31BFF20297AEDC500F213D2 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BFF1F297AEDC500F213D2 /* QuestionView.swift */; };
 		E31BFF22297AEFA900F213D2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BFF21297AEFA900F213D2 /* Data.swift */; };
+		E31BFF24297AF0D900F213D2 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BFF23297AF0D900F213D2 /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E31BFF1D297AEC0100F213D2 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		E31BFF1F297AEDC500F213D2 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		E31BFF21297AEFA900F213D2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E31BFF23297AF0D900F213D2 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				E30F23C52976F9C2006E6A6E /* Question.swift */,
 				E31BFF21297AEFA900F213D2 /* Data.swift */,
+				E31BFF23297AF0D900F213D2 /* QuizManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				E30F23C62976F9C2006E6A6E /* Question.swift in Sources */,
 				E30F23B72976F5F7006E6A6E /* ContentView.swift in Sources */,
 				E31BFF20297AEDC500F213D2 /* QuestionView.swift in Sources */,
+				E31BFF24297AF0D900F213D2 /* QuizManager.swift in Sources */,
 				E31BFF1C297AEBB400F213D2 /* ProgressBar.swift in Sources */,
 				E31BFF1E297AEC0100F213D2 /* AnswerRow.swift in Sources */,
 				E30F23B52976F5F7006E6A6E /* Country_Flag_GameApp.swift in Sources */,
