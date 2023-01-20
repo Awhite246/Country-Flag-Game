@@ -11,6 +11,8 @@
 		E30F23B72976F5F7006E6A6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30F23B62976F5F7006E6A6E /* ContentView.swift */; };
 		E30F23B92976F5FA006E6A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30F23B82976F5FA006E6A6E /* Assets.xcassets */; };
 		E30F23BC2976F5FA006E6A6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30F23BB2976F5FA006E6A6E /* Preview Assets.xcassets */; };
+		E30F23C62976F9C2006E6A6E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30F23C52976F9C2006E6A6E /* Question.swift */; };
+		E31BFF1A297AEA8900F213D2 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BFF19297AEA8900F213D2 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E30F23B62976F5F7006E6A6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E30F23B82976F5FA006E6A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30F23BB2976F5FA006E6A6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E30F23C52976F9C2006E6A6E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		E31BFF19297AEA8900F213D2 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		E30F23C42976F90A006E6A6E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E30F23C52976F9C2006E6A6E /* Question.swift */,
+				E31BFF19297AEA8900F213D2 /* CustomButton.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31BFF1A297AEA8900F213D2 /* CustomButton.swift in Sources */,
+				E30F23C62976F9C2006E6A6E /* Question.swift in Sources */,
 				E30F23B72976F5F7006E6A6E /* ContentView.swift in Sources */,
 				E30F23B52976F5F7006E6A6E /* Country_Flag_GameApp.swift in Sources */,
 			);
