@@ -23,6 +23,7 @@ struct ContentView: View {
                 NavigationLink {
                     QuestionView()
                         .environmentObject(quizManager)
+                        .navigationBarBackButtonHidden()
                 } label: {
                     CustomButton(text: "Start")
                 }
