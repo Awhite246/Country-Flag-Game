@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 
 struct CustomButton: View {
-    let text: String
-    let background: Color = .yellow
+    var text: String
+    var background: Color = .yellow
     var body: some View {
         Text(text)
             .foregroundColor(.cyan)
